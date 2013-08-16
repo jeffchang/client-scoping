@@ -18,4 +18,6 @@ get '/meals' do
   erb :meals
 end
 
-
+get '/color' do
+  erb :set_color
+end
